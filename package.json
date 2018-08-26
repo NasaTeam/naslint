@@ -1,0 +1,24 @@
+{
+  "name": "naslint",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:newraina/naslint.git",
+  "author": "newraina <newraina@users.noreply.github.com>",
+  "license": "MIT",
+  "bin": "./bin/cmd.js",
+  "bugs": {
+    "url": "https://github.com/newraina/naslint/issues"
+  },
+  "scripts": {
+    "lint": "naslint"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.2"
+  },
+  "dependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-nebulas": "^0.0.1",
+    "eslint-plugin-nebulas": "^0.0.2",
+    "standard-engine": "^9.0.0"
+  }
+}
