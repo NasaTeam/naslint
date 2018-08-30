@@ -300,13 +300,15 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "http://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-eslint-config-nebulas@^0.0.1:
-  version "0.0.1"
-  resolved "http://registry.npm.taobao.org/eslint-config-nebulas/download/eslint-config-nebulas-0.0.1.tgz#e518ce50f0a93321bce5f696deacdb204ce09cca"
-
-eslint-plugin-nebulas@^0.0.2:
+eslint-config-nebulas@^0.0.2:
   version "0.0.2"
-  resolved "http://registry.npm.taobao.org/eslint-plugin-nebulas/download/eslint-plugin-nebulas-0.0.2.tgz#25948ea0a510f5066fb1f1bbc22fefe65ef0d2da"
+  resolved "https://registry.npmjs.org/eslint-config-nebulas/-/eslint-config-nebulas-0.0.2.tgz#a74a7e200fbed85fbe8273aa920a7ef8f10212d1"
+  dependencies:
+    globals "^11.7.0"
+
+eslint-plugin-nebulas@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.npmjs.org/eslint-plugin-nebulas/-/eslint-plugin-nebulas-0.0.4.tgz#5525111d44401cabb5e0fa6bc669d3976f5a463c"
   dependencies:
     babel-eslint "^8.2.6"
     requireindex "~1.1.0"

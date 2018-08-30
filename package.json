@@ -17,8 +17,8 @@
   },
   "dependencies": {
     "eslint": "^5.4.0",
-    "eslint-config-nebulas": "^0.0.1",
-    "eslint-plugin-nebulas": "^0.0.2",
+    "eslint-config-nebulas": "^0.0.2",
+    "eslint-plugin-nebulas": "^0.0.4",
     "standard-engine": "^9.0.0"
   }
 }
