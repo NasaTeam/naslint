@@ -8,7 +8,7 @@ module.exports = {
   bugs: pkg.bugs.url,
   eslint: eslint,
   cmd: 'naslint',
-  tagline: 'lint nabulas smart contract',
+  tagline: 'lint nebulas smart contract',
   eslintConfig: {
     configFile: path.join(__dirname, 'eslintrc.js')
   }
