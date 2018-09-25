@@ -1,6 +1,6 @@
 {
   "name": "naslint",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "repository": "git@github.com:newraina/naslint.git",
   "author": "newraina <newraina@users.noreply.github.com>",
