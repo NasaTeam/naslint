@@ -2,13 +2,13 @@
   "name": "naslint",
   "version": "0.0.3",
   "main": "index.js",
-  "repository": "git@github.com:newraina/naslint.git",
+  "repository": "git@github.com:NasaTeam/naslint.git",
   "author": "newraina <newraina@users.noreply.github.com>",
   "license": "MIT",
   "homepage": "https://naslint.js.org",
   "bin": "./bin/cmd.js",
   "bugs": {
-    "url": "https://github.com/newraina/naslint/issues"
+    "url": "https://github.com/NasaTeam/naslint/issues"
   },
   "scripts": {
     "lint": "naslint"
