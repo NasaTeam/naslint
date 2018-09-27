@@ -65,7 +65,7 @@ $ npm run lint
 
 #### NasLint 可以检查我用 TypeScript 编写的合约文件吗？
 
-目前不能。
+可以，NasLint 是针对合约的 Lint 工具，不仅仅针对 JS，目前同时支持 JavaScript 和 TypeScript 编写的合约。
 
 #### NasLint 与 ESLint 冲突吗？我在项目中还想使用 ESLint 怎么办？
 
