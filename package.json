@@ -28,6 +28,9 @@
     "eslint": "^5.4.0",
     "eslint-config-nebulas": "^0.0.2",
     "eslint-plugin-nebulas": "^0.0.5",
-    "standard-engine": "^9.0.0"
+    "minimist": "^1.2.0",
+    "standard-engine": "^9.0.0",
+    "typescript": "^3.0.3",
+    "typescript-eslint-parser": "^19.0.1"
   }
 }
