@@ -4,6 +4,8 @@
 > 
 > 星云链智能合约代码检查工具。
 
+![](demo/naslint-screenshot.png)
+
 ## 安装与使用
 
 #### 前提
