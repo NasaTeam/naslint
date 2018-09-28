@@ -420,10 +420,10 @@ eslint-config-nebulas@^0.0.2:
   dependencies:
     globals "^11.7.0"
 
-eslint-plugin-nebulas@^0.0.5:
-  version "0.0.5"
-  resolved "http://registry.npm.taobao.org/eslint-plugin-nebulas/download/eslint-plugin-nebulas-0.0.5.tgz#cbf93b49693efa0552b82e3d24c96dc3566e69e5"
-  integrity sha1-y/k7SWk++gVSuC49JMltw1ZuaeU=
+eslint-plugin-nebulas@^0.0.6:
+  version "0.0.6"
+  resolved "http://registry.npm.taobao.org/eslint-plugin-nebulas/download/eslint-plugin-nebulas-0.0.6.tgz#9e4b74dcdffd4667b0c22e5954eb4ca5171af188"
+  integrity sha1-nkt03N/9Rmewwi5ZVOtMpRca8Yg=
   dependencies:
     babel-eslint "^8.2.6"
     requireindex "~1.1.0"

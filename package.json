@@ -27,7 +27,7 @@
   "dependencies": {
     "eslint": "^5.4.0",
     "eslint-config-nebulas": "^0.0.2",
-    "eslint-plugin-nebulas": "^0.0.5",
+    "eslint-plugin-nebulas": "^0.0.6",
     "minimist": "^1.2.0",
     "standard-engine": "^9.0.0",
     "typescript": "^3.0.3",
