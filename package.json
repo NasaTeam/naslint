@@ -19,7 +19,7 @@
     "url": "https://github.com/NasaTeam/naslint/issues"
   },
   "scripts": {
-    "demo": "naslint demo/example.js; exit 0"
+    "demo": "node ./bin/cmd.js demo/example.js; exit 0"
   },
   "devDependencies": {
     "prettier": "^1.14.2"
