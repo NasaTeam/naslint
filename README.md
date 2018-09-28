@@ -1,7 +1,9 @@
 # NasLint
 
+[![npm](https://img.shields.io/npm/v/naslint.svg?style=popout-square)](https://www.npmjs.com/package/naslint)
+
 > Linter for smart contracts on Nebulas blockchain.
-> 
+>
 > 星云链智能合约代码检查工具。
 
 ![](demo/naslint-screenshot.png)
@@ -54,14 +56,13 @@ $ npm run lint
 
 ## 规则
 
-规则名 | 功能 | 文档
----|---|:---:
-`export-contract` | Ensure an export is a smart contract object. | [[<sup>↗</sup>]](https://github.com/NasaTeam/eslint-plugin-nebulas/blob/master/docs/rules/export-contract.md)
-`export` | Ensure an export is present. | [[<sup>↗</sup>]](https://github.com/NasaTeam/eslint-plugin-nebulas/blob/master/docs/rules/export.md)
-`limited-libs` | Report unsupported third-party library. | [[<sup>↗</sup>]](https://github.com/NasaTeam/eslint-plugin-nebulas/blob/master/docs/rules/limited-libs.md)
-`no-esm` | Report ESM import calls and export. | [[<sup>↗</sup>]](https://github.com/NasaTeam/eslint-plugin-nebulas/blob/master/docs/rules/no-esm.md)
-`no-undef` | Report undefined variables. |  [[<sup>↗</sup>]](https://eslint.org/docs/rules/no-undef)
-
+| 规则名            | 功能                                         |                                                     文档                                                      |
+| ----------------- | -------------------------------------------- | :-----------------------------------------------------------------------------------------------------------: |
+| `export-contract` | Ensure an export is a smart contract object. | [[<sup>↗</sup>]](https://github.com/NasaTeam/eslint-plugin-nebulas/blob/master/docs/rules/export-contract.md) |
+| `export`          | Ensure an export is present.                 |     [[<sup>↗</sup>]](https://github.com/NasaTeam/eslint-plugin-nebulas/blob/master/docs/rules/export.md)      |
+| `limited-libs`    | Report unsupported third-party library.      |  [[<sup>↗</sup>]](https://github.com/NasaTeam/eslint-plugin-nebulas/blob/master/docs/rules/limited-libs.md)   |
+| `no-esm`          | Report ESM import calls and export.          |     [[<sup>↗</sup>]](https://github.com/NasaTeam/eslint-plugin-nebulas/blob/master/docs/rules/no-esm.md)      |
+| `no-undef`        | Report undefined variables.                  |                           [[<sup>↗</sup>]](https://eslint.org/docs/rules/no-undef)                            |
 
 ## 常见问题
 
@@ -83,21 +84,21 @@ $ npm run lint
 
 #### 贡献者 <a name="contributors">&nbsp;</a>
 
-姓名 | 贡献 <sup>[*]</sup> | 备注
-:---:|---|---
-@newraina | 🤔 💻 🚇 🔌 📖 | 创始人
-@cssmagic | 🤔 📖 | 
+|   姓名    | 贡献 <sup>[*]</sup> | 备注   |
+| :-------: | ------------------- | ------ |
+| @newraina | 🤔 💻 🚇 🔌 📖      | 创始人 |
+| @cssmagic | 🤔 📖               |
 
 > <sup>[*]</sup> These legends follow the [emoji-key](https://github.com/kentcdodds/all-contributors#emoji-key) of "all-contributors" specification. Contributions of any kind are welcome!
 
-***
+---
 
 ## Thanks
 
 NasLint is based on these open source projects:
 
-* [ESLint](https://eslint.org/)
-* [standard-engine](https://github.com/standard/standard-engine)
+- [ESLint](https://eslint.org/)
+- [standard-engine](https://github.com/standard/standard-engine)
 
 ## License
 
