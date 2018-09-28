@@ -6,12 +6,12 @@
   "author": "newraina <newraina@users.noreply.github.com>",
   "description": "Linter for smart contracts on Nebulas blockchain.",
   "keywords": [
-   "nebulas",
-   "blockchain",
-   "dapp",
-   "smart-contract",
-   "lint"
- ],
+    "nebulas",
+    "blockchain",
+    "dapp",
+    "smart-contract",
+    "lint"
+  ],
   "license": "MIT",
   "homepage": "https://naslint.js.org",
   "bin": "./bin/cmd.js",
@@ -19,7 +19,7 @@
     "url": "https://github.com/NasaTeam/naslint/issues"
   },
   "scripts": {
-    "lint": "naslint"
+    "demo": "naslint demo/example.js; exit 0"
   },
   "devDependencies": {
     "prettier": "^1.14.2"
