@@ -19,10 +19,13 @@
     "url": "https://github.com/NasaTeam/naslint/issues"
   },
   "scripts": {
-    "demo": "node ./bin/cmd.js demo/example.js --verbose; exit 0"
+    "demo": "node ./bin/cmd.js demo/example.js --verbose; exit 0",
+    "test": "tape test/*.js"
   },
   "devDependencies": {
-    "prettier": "^1.14.2"
+    "cross-spawn": "^6.0.5",
+    "prettier": "^1.14.2",
+    "tape": "^4.9.1"
   },
   "dependencies": {
     "eslint": "^5.4.0",
