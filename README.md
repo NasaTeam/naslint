@@ -6,7 +6,7 @@
 >
 > 星云链智能合约代码检查工具。
 
-![](demo/naslint-screenshot.png)
+![screenshot](https://user-images.githubusercontent.com/10708802/46242078-71000d00-c3f6-11e8-9491-abcd4506fdaa.png)
 
 ## 安装与使用
 
