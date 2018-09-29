@@ -29,6 +29,9 @@ if (!process.stdin.isTTY || argv._[0] === '-' || argv.stdin) {
   process.stdin.pipe(snazzy).pipe(process.stdout)
 } else {
   const args = process.argv.slice(2)
+  if (!args.includes('--verbose')) {
+    args.push('--verbose')
+  }
   const naslint = cp.spawn('node', [NASLINT_CMD, ...args])
   naslint.stderr.pipe(process.stderr)
   naslint.stdout.pipe(snazzy).pipe(process.stdout)
