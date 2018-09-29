@@ -1,6 +1,7 @@
 # NasLint
 
 [![npm](https://img.shields.io/npm/v/naslint.svg?style=popout-square)](https://www.npmjs.com/package/naslint)
+[![Travis (.org)](https://img.shields.io/travis/NasaTeam/naslint.svg?style=popout-square)](https://travis-ci.org/NasaTeam/naslint)
 
 > Linter for smart contracts on Nebulas blockchain.
 >
