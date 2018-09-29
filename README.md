@@ -7,7 +7,7 @@
 >
 > 星云链智能合约代码检查工具。
 
-![screenshot](https://user-images.githubusercontent.com/10708802/46242078-71000d00-c3f6-11e8-9491-abcd4506fdaa.png)
+![screenshot](https://user-images.githubusercontent.com/1231359/46247345-88fa7f80-c43c-11e8-94e6-2cd8a3723a2e.png)
 
 ## 安装与使用
 
