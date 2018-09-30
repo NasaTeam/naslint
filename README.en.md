@@ -1,47 +1,43 @@
-[English version](README.en.md)
-
 # NasLint
 
 [![npm](https://img.shields.io/npm/v/naslint.svg?style=popout-square)](https://www.npmjs.com/package/naslint)
 [![Travis (.org)](https://img.shields.io/travis/NasaTeam/naslint.svg?style=popout-square)](https://travis-ci.org/NasaTeam/naslint)
 
 > Linter for smart contracts on Nebulas blockchain.
->
-> 星云链智能合约代码检查工具。
 
 ![screenshot](https://user-images.githubusercontent.com/1231359/46247345-88fa7f80-c43c-11e8-94e6-2cd8a3723a2e.png)
 
-## 安装与使用
+## How to use
 
-#### 前提条件
+#### Precondition
 
-安装 Node.js 10+ 和 npm 6+。
+Node.js 10+ and npm 6+.
 
-#### 全局安装
+#### Install globally
 
-在任何地方运行以下命令，即可安装为全局命令：
+Run this command to install as a global command:
 
 ```sh
 $ npm i -g naslint
 ```
 
-然后就可以在任何地方使用 `naslint` 全局命令：
+Then, we can use this command `naslint` anywhere:
 
 ```sh
 $ naslint my-contract.js
 ```
 
-此时会对指定的合约文件进行检查，并给出检查报告。
+It will lint specified contract file, and output a report.
 
-#### 局部安装
+#### Install locally
 
-在项目的根目录运行以下命令，即可安装为当前项目的开发依赖：
+Run this command in your project's folder to install as a local development dependency:
 
 ```sh
 $ npm i -D naslint
 ```
 
-然后在 `package.json` 文件中添加以下脚本：
+Then, add a script in your `package.json` file, like this:
 
 ```json
 {
@@ -51,45 +47,45 @@ $ npm i -D naslint
 }
 ```
 
-此后运行以下命令，即可对指定的合约文件进行检查：
+Thereafter, your can run this script to lint specified contract file:
 
 ```sh
 $ npm run lint
 ```
 
-## 规则
+## Rules
 
-NasLint 目前内置了下规则对合约代码进行检查和报警。
+NasLint validates contract code with these built-in rules.
 
-| 规则名            | 功能                                         |                                                     文档                                                      |
-| ----------------- | -------------------------------------------- | :-----------------------------------------------------------------------------------------------------------: |
+| Rule name         | Functionality                                | Doc |
+| ----------------- | -------------------------------------------- | :---: |
 | `export-contract` | Ensure an export is a smart contract object. | [[<sup>↗</sup>]](https://github.com/NasaTeam/eslint-plugin-nebulas/blob/master/docs/rules/export-contract.md) |
 | `export`          | Ensure an export is present.                 |     [[<sup>↗</sup>]](https://github.com/NasaTeam/eslint-plugin-nebulas/blob/master/docs/rules/export.md)      |
 | `limited-libs`    | Report unsupported third-party library.      |  [[<sup>↗</sup>]](https://github.com/NasaTeam/eslint-plugin-nebulas/blob/master/docs/rules/limited-libs.md)   |
 | `no-esm`          | Report ESM import calls and export.          |     [[<sup>↗</sup>]](https://github.com/NasaTeam/eslint-plugin-nebulas/blob/master/docs/rules/no-esm.md)      |
 | `no-undef`        | Report undefined variables.                  |                           [[<sup>↗</sup>]](https://eslint.org/docs/rules/no-undef)                            |
 
-## 常见问题
+## FAQ
 
-#### NasLint 可以检查我用 TypeScript 编写的合约代码吗？
+#### Does NasLint validate contract written in TypeScript?
 
-可以，NasLint 是针对合约的 lint 工具，不局限于 JavaScript。NasLint 同时支持 JavaScript 和 TypeScript 编写的合约。
+Sure. NasLint can handle contract code in both JavaScript and TypeScript.
 
-#### NasLint 与 ESLint 冲突吗？我在项目中还想使用 ESLint 怎么办？
+#### Does NasLint conflict with ESLint? What if I use ESLint simultaneously in my project?
 
-不冲突。这两者完全独立，可以同时使用。
+No conflict. These two works completely independently.
 
-像往常一样使用 ESLint 即可。你可以按你喜欢的方式配置 ESLint，这此配置并不会干扰到 NasLint。
+Just use ESLint as usual. You can config ESLint in the way your like, these configuration for ESLint will never interference NasLint.
 
-## 社区
+## Community
 
-#### 微信群
+#### WeChat group
 
-有任何关于 NasLint 的疑问，欢迎加群讨论！请加群主微信号 `cssmagic`，群主会拉你入群。
+Add group master `cssmagic`, who will invite you in.
 
-#### 贡献者 <a name="contributors">&nbsp;</a>
+#### Contributors <a name="contributors">&nbsp;</a>
 
-|   姓名    | 贡献 <sup>[\*]</sup> | 备注   |
+|   Name    | Contribution <sup>[\*]</sup> | Remark   |
 | :-------: | ------------------- | ------ |
 | @newraina | 🤔 💻 🚇 🔌 ⚠️ 📖  | Founder |
 | @cssmagic | 🤔 🌍 📖            |
